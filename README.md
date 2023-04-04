@@ -1,7 +1,5 @@
 # API REST NODE
 
-Api rest creada para prueba tecnica.
-
 ## Requerimientos
 
 - node 14v o superior: https://nodejs.org/es
