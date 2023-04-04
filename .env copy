@@ -1,5 +1,0 @@
-PORT=8080
-DB_HOST='localhost' 
-DB_USERNAME='gguzman'
-DB_PASSWORD='Admin1234'
-DB_DATABASE='empleados'
