@@ -19,6 +19,9 @@ const getOneSupervisor = (req, res) => {
 
         connect.query(`SELECT * FROM employee where supervisedby_id = ${id}`, (error, resultEmployee) => {
             if (error) throw error;
+
+            // if (resultEmployee.length < 1) return res.status(500).send('No es supervisor')
+
             jefe.isSupervisor = resultEmployee.length > 0 ? true : false;
             jefe.empleados = [...resultEmployee]
             res.json(jefe)
