@@ -1,5 +1,5 @@
 function routerApi(app) {
-    app.use('/api/employees', require('./employeesRouter'))
+    app.use('/api/employee', require('./employeesRouter'))
     app.use('/api/supervisor', require('./supervisorRouter'))
 }
 
