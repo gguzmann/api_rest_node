@@ -9,7 +9,7 @@ create TABLE `employee` (
     firstname varchar(100),
     lastname varchar(100),
     email varchar(100),
-    phone varchar(100),
+    phone varchar(20),
     birthdate date default NULL,
     supervisedby_id int(11) default NULL,
     FOREIGN KEY (supervisedby_id) REFERENCES employee(id),
