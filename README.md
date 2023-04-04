@@ -3,7 +3,7 @@
 ## Requerimientos
 
 - node 14v o superior: https://nodejs.org/es
-- base de datos mysql
+- mysql
 
 ## Instalacion
 
